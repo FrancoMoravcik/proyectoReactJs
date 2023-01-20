@@ -8,8 +8,7 @@
 .div2 {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 16px;
+    align-items: center;
     height: 90px;
     width: 150px;
 }

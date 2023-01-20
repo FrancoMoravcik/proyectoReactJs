@@ -1,8 +1,18 @@
 import './ItemListContainer'
+import ItemList from '../itemlist/ItemList'
+
+
+
 
 const ItemListContainer = (props) => {
+   
+
+
     return (
-<p>Componente contenedor dice {props.greeting}</p>
+<div>
+    {props.greeting}
+   <ItemList/>
+</div>
     )
 }
 

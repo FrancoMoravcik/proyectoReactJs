@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:wght@500&family=Montserrat:wght@100;200;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.divItem {
+    margin-top: 50px;
+    width: 250px !important;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.096);
+    background-color: #b81c3607;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pMarca {
+    font-weight: 500;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pKilogramo {
+    font-size: 'Cairo', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pPrecio {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+.linkDetalle {
+    color: white;
+    background-color: #b81c36;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    transition: all .5s;
+    margin-top: 15px;
+}
+
+.linkDetalle:hover{
+    background-color: #94172c;
+} 

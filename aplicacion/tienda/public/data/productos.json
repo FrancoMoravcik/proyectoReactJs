@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "marca": "Royal Cannin",
+        "categoria": "Perro Grande",
+        "kilogramo": "5 Kg",
+        "precio": "$4000",
+        "stock": 9
+     },
+     {
+        "id": 2,
+        "marca": "Dog Chow",
+        "categoria": "Perro Pequeño",
+        "kilogramo": "7 Kg",
+        "precio": "$4500",
+        "stock": 6
+     },
+     {
+        "id": 3, 
+        "marca": "Royal Cannin",
+        "categoria": "Perro Mediano",
+        "kilogramo": "12 Kg",
+        "precio": "$11500",
+        "stock": 12
+     },
+     {
+        "id": 4,
+        "marca": "Pro Plan",
+        "categoria": "Perro Grande",
+        "kilogramo": "21 Kg",
+        "precio": "$13000",
+        "stock": 3
+     },
+     {
+        "id": 5,
+        "marca": "Cachorritos", 
+        "categoria": "Perro Mediano",
+        "kilogramo": "15 Kg",
+        "precio": "$9500",
+        "stock": 5
+     }
+ ]
+ 
