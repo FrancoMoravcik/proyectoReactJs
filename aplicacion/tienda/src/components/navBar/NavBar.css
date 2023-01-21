@@ -35,17 +35,17 @@ ul {
 
 ul li a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     transition: all .3s;
     padding-left: 30px;
     border-left: 1px solid rgba(0, 0, 0, 0.274);
-    transition: all 1s;
+    transition: all .5s;
 }
 
 ul li a:hover {
-   color: rgba(0, 0, 0, 0.68);
+   color: rgba(0, 0, 0, 0.577);
 }
 
 .li4 {

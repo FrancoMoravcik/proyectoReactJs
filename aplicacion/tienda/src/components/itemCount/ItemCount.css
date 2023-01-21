@@ -9,10 +9,6 @@
 }
 
 
-.divHijoItemCount{
-    display: flex;
-}
-
 .pItemCount {
     font-family: 'Cairo', sans-serif;
     margin-top: 15px;
@@ -20,17 +16,31 @@
     font-weight: 300;
 }
 
+.divBotonesSumar-Restar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.156);
+width: 120px;
+padding: 5px;
+height: 50px;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.064);
+}
+
 .btn1 {
-   padding: 5px;
-   background-color: #b81c37;
-   color: white;
-   margin: 4px;
-   font-weight: bold;
-   font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    border: none;
+   margin: 2px;
+   width: 30px;
+   height: 30px;
+   font-size: 25px;
 }
 
 .btn1b {
-    width: 32px;
+    background-color: none;
 }
 
 .btn2 {
@@ -39,6 +49,7 @@
     padding: 5px 7px;
     background-color:#b81c37;
     color: white;
-    margin: 11px;
+    margin: 20px 0px 0px 25px;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.17);
 }

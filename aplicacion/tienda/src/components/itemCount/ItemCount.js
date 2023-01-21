@@ -25,7 +25,7 @@ const ItemCount = (props) => {
 
     return (
         <div>
-            <div className='divHijoItemCount'>
+            <div className='divBotonesSumar-Restar'>
             <button className='btn1' onClick={addOne}>+</button>
             <p className='pItemCount'>{count}</p>
             <button className='btn1 btn1b' onClick={disOne}>-</button>

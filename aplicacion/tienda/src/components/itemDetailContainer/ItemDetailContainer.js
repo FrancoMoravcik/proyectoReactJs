@@ -11,19 +11,14 @@ const ItemDetailContainer = () => {
 const [producto, setProducto] = useState({})
 
  const { productoId } = useParams()
-
- 
- const getProduct = (productoId) => {
-     fetch('/data/productos.json')
-     .then(response => response.json())
-     .then(productos => setProducto(productos.find(el => el.id === parseInt(productoId))))
-    }
     useEffect(() => {
-        getProduct()
+        fetch('../data/productos.json')
+        .then(response => response.json())
+        .then(productos => setProducto(productos.find(el => el.id === parseInt(productoId))))
     }, [productoId])
     
-    console.log(`${producto}`)
-    console.log(productoId);
+    console.log(producto)
+   
       
       return(
           
