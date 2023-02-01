@@ -4,7 +4,7 @@
 .divItem {
     margin-top: 50px;
     width: 250px !important;
-    height: 360px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.096);
     background-color: #b81c3607;
@@ -14,6 +14,10 @@
     justify-content: center;
 }
 
+.divItem:hover  {
+   border: 1px solid rgba(0, 0, 0, 0.476);
+   cursor: pointer;
+}
 
 .pMarca {
     font-weight: 500;
@@ -37,14 +41,14 @@
     color: white;
     background-color: #b81c36;
     text-decoration: none;
-    padding: 5px;
+    padding: 6px;
     font-family: 'Poppins', sans-serif;
     border-radius: 6px;
     transition: all .5s;
     margin-top: 15px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.17);
 }
 
 .linkDetalle:hover{
-    background-color: #94172c;
+    background-color: #ffc300;
+    color: black;
 } 

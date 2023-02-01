@@ -9,19 +9,17 @@ const ItemCount = (props) => {
     const addOne = () => {
         if(count < props.stock){
             setCount(count + 1)
+            props.guardarCantidad(count)
         }
     }
    
     const disOne = () => {
         if(count > 0){
             setCount(count - 1)
+            props.guardarCantidad(count)
         }
     }
 
-
-    const onAdd = () => {
-        console.log(count);
-    }
 
     return (
         <div>
@@ -30,7 +28,6 @@ const ItemCount = (props) => {
             <p className='pItemCount'>{count}</p>
             <button className='btn1 btn1b' onClick={disOne}>-</button>
             </div>
-            <button className='btn2' onClick={onAdd}>onAdd</button>
         </div>
     )
 } 

@@ -1,0 +1,35 @@
+.divItemDetail{
+    height: 400px;
+    margin-top: 50px;
+    width: 250px !important;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.096);
+    background-color: #b81c3607;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.divItemDetail:hover  {
+    border: 1px solid rgba(0, 0, 0, 0.476);
+    cursor: pointer;
+ }
+
+.linkToProductos {
+    font-weight: bold;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.509);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.linkToProductos:hover {
+    background-color: white;
+    color: #b81c36;
+ 
+} 

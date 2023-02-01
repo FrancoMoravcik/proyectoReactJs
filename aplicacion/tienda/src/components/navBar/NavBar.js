@@ -12,14 +12,17 @@ const NavBar = () => {
     <img className='img1' src={doggydeli} alt='logo-tienda'></img>
 </div>
 
-            <ul>
-                <li className='mx-3'><Link to="inicio">Inicio</Link></li>
-                <li className='mx-3'><Link to="productos">Productos</Link></li>
-                <li className='mx-3'><Link to="nosotros">Nosotros</Link></li>
-                <li className='mx-3 li4'><Link to="accesorios">Accesorios</Link></li>
+            <ul className='ulNavBar'>
+                <li className='mx-3 liNavBar'><Link className='linkNavBar' to="inicio">Inicio</Link></li>
+                <li className='mx-3 liNavBar'><Link className='linkNavBar' to="productos">Productos</Link></li>
+                <li className='mx-3 liNavBar'><Link className='linkNavBar' to="nosotros">Nosotros</Link></li>
+                <li className='mx-3 liNavBar li4'><Link className='linkNavBar' to="accesorios">Accesorios</Link></li>
             </ul>
 
-  <CardWidget className='cardWidget' cantidad="4"></CardWidget>
+<ul className='ulCart'>
+    <li className='liCart'><Link className='linkCart' to="/carrito"><CardWidget className='cardWidget' cantidad="4"></CardWidget></Link> </li>
+</ul>
+           
         </header>
      )
 }
