@@ -1,6 +1,8 @@
 import './Inicio.css'
 
+
 const Inicio = () => {
+
 
     return(
 
